@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Enfield Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Inter:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/Enfield-Logo.png" alt="Royal Enfield Logo" class="logo">
+        <ul class="nav-items">
+            <li><a href="#">Motorcycles</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Rides</a></li>
+            <li><a href="#">Our World</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Locate us</a></li>
+        </ul>
+    </nav>
+    <section class="model-banner">
+        <h1>Royal Enfield Continental GT 650</h1>
+    </section>
+    <section class="new-colours-banner">
+        <h2>ALL NEW COLOURS OF CONTINENTAL GT 650</h2>
+    </section>
+    <section class="Ex-india-price">
+        <h4 class="color-title">APEX GREY</h4>
+        <h2 class="ex-shw-pr">Ex-Showroom India</h2>
+        <h5 class="Price"> ₹ 3,38,000</h5> <!-- This is the price element -->
+    </section>
+    
+    <div>
+        <button class="button-ar">View in AR</button><br>
+        <button class="button-specs">Technical Specifications</button>
+    </div>
+
+    <div class="color-variants-text">Color Variants</div>
+
+    <!-- Main Bike Image Container with Fade Effect -->
+    <div class="image-container">
+        <img id="main-bike-image" src="img/dux_deulxe.png" alt="Bike Image">
+    </div>
+
+    <!-- Yellow Area for Three Small Images with Equal Spacing and Names -->
+    <div class="color-variants-images">
+        <div class="color-variant" onclick="changeImage('img/dux_deulxe.png', 'DUX DELUXE')">
+            <img src="img/dux_deulxe-tank.png" alt="Color Variant 1">
+            <p>DUX DELUXE</p>
+        </div>
+        <div class="color-variant" onclick="changeImage('img/mr_clean_.png', 'MR CLEAN')">
+            <img src="img/mr-clean-tank.png" alt="Color Variant 2">
+            <p>MR CLEAN</p>
+        </div>
+        <div class="color-variant" onclick="changeImage('img/rocker_red.png', 'ROCKER RED')">
+            <img src="img/rocker-red-tank.png" alt="Color Variant 3">
+            <p>ROCKER RED</p>
+        </div>
+    </div>
+    
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
